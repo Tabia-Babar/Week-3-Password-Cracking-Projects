@@ -1,15 +1,17 @@
-Week 3 – Password Cracking Projects
+# Week 3 – Password Cracking Projects
 
-Cybersecurity Internship | Networkwalks | Batch B084C
+**Cybersecurity Internship | networkwalks.com | Batch B084C**
 
-Project Type: Hands-on Cybersecurity Practical
-Week: 03
-Modules: Project Module 1 & Project Module 2
-Operating System: Windows PC
+| | |
+|---|---|
+| **Project Type** | Hands-on Cybersecurity Practical |
+| **Week** | 03 |
+| **Modules** | Project Module 1 & Project Module 2 |
+| **Operating System** | Windows PC |
 
 ---
 
-Project Overview
+## Project Overview
 
 This repository documents two practical projects completed as part of my Week 3 Cybersecurity Internship at Networkwalks (Batch B084C).
 
@@ -19,24 +21,24 @@ I performed both projects on a Windows PC, following the practical instructions 
 
 The projects involved two different approaches:
 
-1. Project Module 1: Using John the Ripper (JTR) with Johnny GUI for PDF password recovery.
-2. Project Module 2: Using Networkwalks Hash Calculator and Password Cracker through a web browser.
+1. **Project Module 1:** Using John the Ripper (JTR) with Johnny GUI for PDF password recovery.
+2. **Project Module 2:** Using Networkwalks Hash Calculator and Password Cracker through a web browser.
 
 Both practical tasks were successfully completed, and the recovered passwords were verified by opening the protected PDF files.
 
 ---
 
-1. Project Modules
+## 1. Project Modules
 
-🔹 Project Module 1 – Password Cracking Using John the Ripper (JTR)
+### 🔹 Project Module 1 – Password Cracking Using John the Ripper (JTR)
 
-1. Introduction
+#### **1. Introduction**
 
 In this module, I performed a practical password recovery exercise using John the Ripper (JTR) and its graphical interface, Johnny GUI.
 
 The purpose was to understand how password hashes are extracted from protected PDF files and how a password-auditing tool can process those hashes to recover the corresponding password.
 
-2. Tools and Technologies Used
+#### **2. Tools and Technologies Used**
 
 - John the Ripper (JTR)
 - Johnny GUI
@@ -44,47 +46,47 @@ The purpose was to understand how password hashes are extracted from protected P
 - Notepad
 - Windows PC
 
-3. Practical Implementation – Step by Step
+#### **3. Practical Implementation – Step by Step**
 
-Step 1: Download John the Ripper
+**Step 1: Download John the Ripper**
 
 Downloaded the John the Ripper package and extracted the downloaded files on my Windows PC.
 
-Step 2: Install and Configure Johnny GUI
+**Step 2: Install and Configure Johnny GUI**
 
-Installed and opened Johnny GUI. Configured the application by selecting the "john.exe" executable from the John the Ripper "run" folder.
+Installed and opened Johnny GUI. Configured the application by selecting the `john.exe` executable from the John the Ripper `run` folder.
 
-Step 3: Extract the PDF Hash
+**Step 3: Extract the PDF Hash**
 
 Opened the online PDF Hash Extractor and uploaded the provided password-protected PDF file.
 
 The tool generated the corresponding PDF hash, which was required for the password recovery process.
 
-Step 4: Save the Extracted Hash
+**Step 4: Save the Extracted Hash**
 
 Copied the extracted hash and saved it in a text file using Notepad.
 
-The file was saved as "hash1.txt".
+The file was saved as `hash1.txt`.
 
-Step 5: Load the Hash File into Johnny
+**Step 5: Load the Hash File into Johnny**
 
-Opened Johnny GUI and selected the Open Password File option.
+Opened Johnny GUI and selected the **Open Password File** option.
 
-Loaded the previously saved "hash1.txt" file into the application.
+Loaded the previously saved `hash1.txt` file into the application.
 
-Step 6: Start the Password Recovery Process
+**Step 6: Start the Password Recovery Process**
 
-Selected Start New Attack to begin the password recovery process.
+Selected **Start New Attack** to begin the password recovery process.
 
 Johnny GUI processed the loaded hash using John the Ripper.
 
-Step 7: Recover and Verify the Password
+**Step 7: Recover and Verify the Password**
 
 After the process was completed, the password was successfully recovered.
 
 Finally, entered the recovered password into the protected PDF file to verify that it opened successfully.
 
-4. Project Outcome
+#### **4. Project Outcome**
 
 Successfully completed the PDF password recovery task using John the Ripper and Johnny GUI.
 
@@ -92,9 +94,9 @@ This practical exercise provided hands-on experience with hash extraction, hash 
 
 ---
 
-🔹 Project Module 2 – Password Cracking Using Networkwalks Tools
+### 🔹 Project Module 2 – Password Cracking Using Networkwalks Tools
 
-1. Introduction
+#### **1. Introduction**
 
 In this module, I explored the browser-based cybersecurity tools provided by Networkwalks.
 
@@ -102,46 +104,46 @@ The objective was to extract a password hash from a protected PDF file and use t
 
 Unlike the previous module, this practical task was performed using online tools through a web browser without configuring a locally installed password-cracking application.
 
-2. Tools and Technologies Used
+#### **2. Tools and Technologies Used**
 
 - Networkwalks Hash Calculator
 - Networkwalks Password Cracker
 - Google Chrome / Web Browser
 - Windows PC
 
-3. Practical Implementation – Step by Step
+#### **3. Practical Implementation – Step by Step**
 
-Step 1: Open Networkwalks Hash Calculator
+**Step 1: Open Networkwalks Hash Calculator**
 
 Opened the Networkwalks Hash Calculator through the web browser.
 
-Step 2: Upload the Protected PDF
+**Step 2: Upload the Protected PDF**
 
 Selected and uploaded the provided password-protected PDF file to the Hash Calculator.
 
-Step 3: Extract the PDF Hash
+**Step 3: Extract the PDF Hash**
 
 The tool processed the uploaded PDF and generated its corresponding password hash.
 
-Step 4: Copy the Extracted Hash
+**Step 4: Copy the Extracted Hash**
 
 Copied the complete extracted hash generated by the Hash Calculator.
 
-Step 5: Open Networkwalks Password Cracker
+**Step 5: Open Networkwalks Password Cracker**
 
 Navigated to the Networkwalks Password Cracker tool through the browser.
 
-Step 6: Submit the Hash
+**Step 6: Submit the Hash**
 
 Pasted the extracted PDF hash into the Password Cracker tool and initiated the password recovery process.
 
-Step 7: Recover and Verify the Password
+**Step 7: Recover and Verify the Password**
 
 The tool successfully recovered the password.
 
 Entered the recovered password into the protected PDF file to verify the result.
 
-4. Project Outcome
+#### **4. Project Outcome**
 
 Successfully completed the password recovery task using the Networkwalks Hash Calculator and Password Cracker.
 
@@ -149,34 +151,35 @@ This module helped me understand how browser-based cybersecurity tools can simpl
 
 ---
 
-Tools Comparison
+## Tools Comparison
 
-Feature| Module 1| Module 2
-Approach| Desktop-based| Browser-based
-Hash Extraction| Online PDF Hash Extractor| Networkwalks Hash Calculator
-Password Recovery| John the Ripper| Networkwalks Password Cracker
-Interface| Johnny GUI| Web Interface
-Operating System| Windows| Windows
-Result| Successful| Successful
+| Feature | Module 1 | Module 2 |
+|---|---|---|
+| **Approach** | Desktop-based | Browser-based |
+| **Hash Extraction** | Online PDF Hash Extractor | Networkwalks Hash Calculator |
+| **Password Recovery** | John the Ripper | Networkwalks Password Cracker |
+| **Interface** | Johnny GUI | Web Interface |
+| **Operating System** | Windows | Windows |
+| **Result** | Successful | Successful |
 
 ---
 
-Key Learning Outcomes
+## Key Learning Outcomes
 
 Through these two practical projects, I gained hands-on experience in the following areas:
 
-- PDF Hash Extraction: Understanding how password hashes can be extracted from protected PDF files.
-- John the Ripper: Learning how to configure and use a password-auditing tool.
-- Johnny GUI: Understanding how to manage password recovery tasks through a graphical interface.
-- Hash File Management: Learning how to save, organize, and load extracted hashes.
-- Browser-Based Tools: Exploring Networkwalks tools for hash extraction and password recovery.
-- Password Security: Understanding the importance of strong and complex passwords.
-- Practical Verification: Verifying recovered passwords by opening the original protected PDF files.
-- Tool Comparison: Understanding the difference between locally installed and browser-based approaches.
+- **PDF Hash Extraction:** Understanding how password hashes can be extracted from protected PDF files.
+- **John the Ripper:** Learning how to configure and use a password-auditing tool.
+- **Johnny GUI:** Understanding how to manage password recovery tasks through a graphical interface.
+- **Hash File Management:** Learning how to save, organize, and load extracted hashes.
+- **Browser-Based Tools:** Exploring Networkwalks tools for hash extraction and password recovery.
+- **Password Security:** Understanding the importance of strong and complex passwords.
+- **Practical Verification:** Verifying recovered passwords by opening the original protected PDF files.
+- **Tool Comparison:** Understanding the difference between locally installed and browser-based approaches.
 
 ---
 
-Conclusion
+## Conclusion
 
 Both projects provided valuable practical experience in understanding password security and password recovery techniques.
 
@@ -190,7 +193,7 @@ I look forward to learning more cybersecurity tools and applying these concepts 
 
 ---
 
-Ethical Considerations
+## Ethical Considerations
 
 All practical activities documented in this repository were performed for educational purposes using provided lab files.
 
@@ -200,20 +203,22 @@ Recovered passwords, original protected PDF files, and complete password hashes 
 
 ---
 
-Internship Information
+## Internship Information
 
-Organization: Networkwalks.com
-Internship: Cybersecurity Internship
-Batch: B084C
-Week: 03
-Projects Completed: Project Module 1 & Project Module 2
-Platform: Windows PC
+| | |
+|---|---|
+| **Organization** | networkwalks.com |
+| **Name** | Tabia Babar |
+| **Internship Batch** | B084C |
+| **Week** | 03 |
+| **Projects Completed** | Project Module 1 & Project Module 2 |
+| **Platform** | Windows PC |
 
-Learning through practice, one project at a time!
+*Learning through practice, one project at a time!*
 
 ---
 
-LinkedIn Posts
+## LinkedIn Posts
 
-- "Project Module 1 – John the Ripper" (https://lnkd.in/p/dWT8QKHz)
-- "Project Module 2 – Networkwalks Tools" (https://lnkd.in/p/djrB6KYj)
+- [Project Module 1 – https://lnkd.in/p/djrB6KYj
+- [Project Module 2 – https://lnkd.in/p/dWT8QKHz
